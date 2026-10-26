@@ -1,0 +1,6 @@
+{
+  "name": "Fastshot",
+  "description": "Fastshot turns a written description into a working app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
