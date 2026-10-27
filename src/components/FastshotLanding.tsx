@@ -102,22 +102,13 @@ export const FastshotLanding: React.FC<FastshotLandingProps> = ({
             />
           </a>
 
-          {/* Upper-Right Corner: Login and Get Started CTA */}
+          {/* Upper-Right Corner: Get Started CTA (Login / Signup) */}
           <div className="flex items-center gap-3">
             <button
               type="button"
               onClick={handleOpenLogin}
-              className="btn-landing-login"
-              aria-label="Researcher Login"
-            >
-              Login
-            </button>
-
-            <button
-              type="button"
-              onClick={handleGetStarted}
               className="cta"
-              aria-label="Get Started"
+              aria-label="Get Started — Login or Sign Up"
             >
               <span>Get Started</span>
             </button>
